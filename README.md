@@ -48,16 +48,19 @@ Perintah sort digunakan untuk mengurutkan.
 ![Screenshot from 2021-10-01 01-52-07](https://user-images.githubusercontent.com/90166624/135514256-12db0824-68ab-46da-aadf-5ec9df115050.png)
 
 **4. Head**
+
 Perintah head digunakan untuk melihat baris pertama dari semua file teks. Secara default, perintah ini akan menampilkan sepuluh baris pertama. Namun, jumlah baris tersebut dapat diubah sesuai keinginan Anda. Misalnya, jika kita hanya ingin menampilkan lima baris pertama, ketik `head -n 5 filename.ext`
 
 ![Screenshot from 2021-10-01 02-09-37](https://user-images.githubusercontent.com/90166624/135516115-b90705b1-07cb-4a98-93d2-aeef6ab6c320.png)
 
 **5. Tail**
+
 Sedangkan perintah tail digunakan untuk melihat baris terakhir.
 
 ![Screenshot from 2021-10-01 02-12-23](https://user-images.githubusercontent.com/90166624/135516426-3332cc8f-c686-4c14-8d84-8befd514d675.png)
 
 **6. Sed**
+
 Sed adalah akronim dari stream editor, sed berfungsi untuk mensubtitusi atau mengganti teks pada suatu file.
 
 * contoh perintahnya ialah `sed -i 's/baris/line/g' filehurufbesar`
@@ -66,9 +69,15 @@ Sed adalah akronim dari stream editor, sed berfungsi untuk mensubtitusi atau men
 
 **7. Grep**
 
+
+
 **8. Diff**
 
+
+
 **9. Echo**
+
+
 
 
 * Jika terminal mengatakan  bahwa *command curl is not found* , maka terlebih dahulu kita menginstall curl dengan perintah :
