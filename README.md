@@ -40,6 +40,12 @@ Cat merupakan akronim dari concatenate, cat berfungsi untuk membuka isi file, me
 
 **3. Sort**
 
+Perintah sort digunakan untuk mengurutkan.
+
+* `sort namafile` digunakan untuk mengurutkan secara A-Z dan 1-10.
+* `sort -r namafile` digunakan untuk mengurutkan secara Z-A dan 10-1.
+
+![Screenshot from 2021-10-01 01-52-07](https://user-images.githubusercontent.com/90166624/135514256-12db0824-68ab-46da-aadf-5ec9df115050.png)
 
 **4. Head**
 
