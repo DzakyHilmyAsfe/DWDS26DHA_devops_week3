@@ -58,6 +58,8 @@ Perintah sort digunakan untuk mengurutkan.
 
 **8. Diff**
 
+**9. Echo**
+
 
 * Jika terminal mengatakan  bahwa *command curl is not found* , maka terlebih dahulu kita menginstall curl dengan perintah :
 
