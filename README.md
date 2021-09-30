@@ -1,12 +1,33 @@
 # Dokumentasi Perintah
 
-**1. Teks Editor Nano**
+### Teks Editor Nano
 
 * Untuk membuka teks editor nano, kita akan menggunakan perintah ini pada terminal :
 
 ```nano file.txt```
 
 ![Screenshot from 2021-10-01 01-03-38](https://user-images.githubusercontent.com/90166624/135507587-36412d16-b448-4f6d-9162-8b1623d8f7c4.png)
+
+### Manipulasi Teks
+
+**1. Cat**
+
+**2. Less**
+
+
+**3. Sort**
+
+
+**4. Head**
+
+
+**5. Tail**
+
+**6. Sed**
+
+**7. Grep**
+
+**8. Diff**
 
 
 * Jika terminal mengatakan  bahwa *command curl is not found* , maka terlebih dahulu kita menginstall curl dengan perintah :
