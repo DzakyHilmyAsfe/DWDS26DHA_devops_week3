@@ -12,8 +12,31 @@
 
 **1. Cat**
 
+Cat merupakan akronim dari concatenate, cat berfungsi untuk membuka isi file, membuat file baru,menggabungkan 2 file atau lebih, serta dapat mengonversi file menggunakan huruf besar atau kecil
+
+* contoh perintah membuka isi file :
+
+![Screenshot from 2021-10-01 01-24-00](https://user-images.githubusercontent.com/90166624/135512139-36bae2b7-9b3a-4049-a6f3-27db38e39523.png)
+
+* contoh perintah membuat file baru :
+
+![Screenshot from 2021-10-01 01-24-25](https://user-images.githubusercontent.com/90166624/135512226-c7e896e0-0d6f-4fd0-9e9e-e1ad5462994a.png)
+
+* contoh perintah menggabung 2 file :
+
+![Screenshot from 2021-10-01 01-25-49](https://user-images.githubusercontent.com/90166624/135512250-9e8eb3b6-0073-417f-9cce-c869464b17c2.png)
+
+* contoh perintah mengonversi huruf pada file :
+
+![Screenshot from 2021-10-01 01-34-06](https://user-images.githubusercontent.com/90166624/135512278-d1206aed-d0fc-4376-aa5e-580acc4ebf0e.png)
+
+
 **2. Less**
 
+* Gunakan perintah less ini untuk memberikan penomoran baris pada file.
+```less -N filegabungan``` 
+
+![Screenshot from 2021-10-01 01-28-23](https://user-images.githubusercontent.com/90166624/135512852-b0082882-d88f-4ea1-9c84-882b32765dfa.png)
 
 **3. Sort**
 
