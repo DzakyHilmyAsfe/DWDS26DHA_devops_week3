@@ -80,6 +80,7 @@ Grep berguna untuk mencari kalimat dalam sebuah file.
 ![Screenshot from 2021-10-02 01-16-03](https://user-images.githubusercontent.com/90166624/135668340-856e54d6-0b60-418f-bc68-de1bc0d98ecb.png)
 
 **8. Diff**
+
 Diff berasal dari kata different, berfungsi untuk membandingkan isi dua file, secara baris perbaris.
 
 * contoh penggunaannya adalah `diff file.txt filehurufbesar`
@@ -87,6 +88,7 @@ Diff berasal dari kata different, berfungsi untuk membandingkan isi dua file, se
 ![Screenshot from 2021-10-02 01-23-18](https://user-images.githubusercontent.com/90166624/135668892-2ef4dc8b-66e8-4a68-8d10-1c91b2cef08d.png)
 
 **9. Echo**
+
 Echo digunakan untuk mencetak kata, serta bisa juga digunakan untuk menginput kata.
 
 * Contoh penggunaan kata untuk mecetak kata `echo "Hello world"` , untuk menginput kata pada file ``:
@@ -112,4 +114,43 @@ Ctrl+A membawa Anda ke awal baris, sedangkan Ctrl+E mengarahkan Anda ke akhir ba
 kita bisa menjalankan banyak command atau perintah di dalam satu command dengan menggunakan “;” untuk memisahkan command-command tersebut. Misalnya, Command1; Command2; Command3. Atau gunakan && jika Anda hanya ingin menjalankan command selanjutnya setelah command pertama berhasil dijalankan.
 
  `shift + PgUp` dan `shift + PgDn` berfungsi untuk menscroll keatas dan kebawah terminal.
+
+### Monitoring
+
+**1. Htop**
+
+Htop digunakan untuk monitoring penggunaan RAM, sama hal nya seperti task manager pada windows.
+
+![Screenshot from 2021-10-02 01-54-53](https://user-images.githubusercontent.com/90166624/135672408-68213ea5-2eb5-48c2-b746-6c8e17d49a4e.png)
+
+
+**2. Lsof**
+
+Lsof artinya list open file, perintah ini digunakan untuk melihat file yang sedang berjalan/dibuka.
+
+* `lsof` berguna untuk melihat seluruh file yang sedang dibuka
+
+![Screenshot from 2021-10-02 02-23-23](https://user-images.githubusercontent.com/90166624/135675582-4e5a1714-2979-4d36-bb5c-a60e0352acaa.png)
+
+* `lsof -u dzakyha` berguna untuk melihat seluruh file yang dibuka pada user dzakyha
+
+![Screenshot from 2021-10-02 02-25-09](https://user-images.githubusercontent.com/90166624/135675782-f970d8f0-f462-408e-98ad-15d1b283ffca.png)
+
+**3. Ps**
+
+Process Status (PS) digunakan untuk melihat proses yang sedang berjalan.
+
+* `ps -f -u dzakyha` berguna untuk melihat seluruh proses yang berjalan pada user dzakyha
+
+![Screenshot from 2021-10-02 02-30-08](https://user-images.githubusercontent.com/90166624/135676346-75bb51d1-9c37-4113-b1dc-ad79baed4239.png)
+
+* `ps -aux` berguna untuk melihat seluruh proses yang berjalan secara lengkap
+
+![Screenshot from 2021-10-02 02-30-56](https://user-images.githubusercontent.com/90166624/135676377-be5896ee-481e-41d5-bffd-64ed8f894957.png)
+
+### Network Firewall
+
+**7. Grep**
+
+**7. Grep**
 
