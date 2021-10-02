@@ -150,7 +150,86 @@ Process Status (PS) digunakan untuk melihat proses yang sedang berjalan.
 
 ### Network Firewall
 
-**7. Grep**
+Firewall digunakan untuk mengamankan server.
 
-**7. Grep**
+* `sudo ufw default deny incoming` digunakan untuk menolak akses yang datang.
 
+* `sudo ufw default allow outgoing` digunakan untuk membolehkan akses keluar.
+
+![Screenshot from 2021-10-03 01-20-50](https://user-images.githubusercontent.com/90166624/135727744-8ae026a4-77b0-491f-8a70-fcf9b7d639e6.png)
+
+* `sudo ufw app list` digunakan untuk melihat list aplikasi yang didukung ufw.
+
+* `sudo ufw allow "Nginx Full"` digunakan untuk membolehkan akses pada aplikasi Nginx.
+
+![Screenshot from 2021-10-03 02-31-34](https://user-images.githubusercontent.com/90166624/135729666-07057829-9321-4db2-9acc-2fba927cf29c.png)
+
+* `sudo ufw allow 80` digunakan untuk membolehkan akses port 80.
+
+* `sudo ufw allow 80/tcp` digunakan untuk membolehkan akses port 80 dengan tipe koneksi tcp.
+
+* `sudo ufw allow 80/udp` digunakan untuk membolehkan akses port 80 dengan tipe koneksi udp.
+
+* `sudo ufw deny 80` digunakan untuk menolak  akses port 80.
+
+* `sudo ufw deny 80` digunakan untuk menghapus konfigurasi perintah yang telah dilakukan, pada contoh kita akan menghapus perintah pembolehan aksen port 80.
+
+![Screenshot from 2021-10-03 02-41-52](https://user-images.githubusercontent.com/90166624/135729872-e0325fc8-caf8-4315-9f57-da0bd94fbbad.png)
+
+
+### System Performance
+
+**1. Vmstat**
+
+* Untuk menjalankan vmstat kita tinggal mengetik `vmstat` pada terminal, maka akan muncul informasi performa sistem, dari penggunaan memori, kecepatan CPU,kecepatan I/O, dan sebagainya. 
+
+* Gunakan perintah `vmstat -sSM` agar informasi sistem lebih mudah dibaca.
+
+* Jika perintah vmstat tak bisa dijalankan, maka install system status terlebih dahulu menggunakan `sudo apt install sysstat -y`
+
+![Screenshot from 2021-10-03 03-04-13](https://user-images.githubusercontent.com/90166624/135730414-f5696fa1-84d4-4c22-af3f-88d380c2a502.png)
+
+![Screenshot from 2021-10-03 02-46-18](https://user-images.githubusercontent.com/90166624/135730116-e3c1bea5-d405-4c3e-8aeb-6db5895c4abe.png)
+
+* Gunakan perintah `vmstat 2 10` agar informasi sistem dapat dibaca setiap 2 detik dengan 10 data yang terbaca, sehingga kita dapat memonitor secara real time.
+
+![Screenshot from 2021-10-03 02-57-28](https://user-images.githubusercontent.com/90166624/135730293-91b0bed2-3d65-4be6-a7f1-e0c23e2d1f6f.png)
+
+**2. Iostat**
+
+Iostat digunakan untuk memonitor input dan output pada sistem, untuk menjalankannya kita akan menggunakan `iostat`.
+
+![Screenshot from 2021-10-03 03-14-52](https://user-images.githubusercontent.com/90166624/135730674-c34ab3ba-8342-408f-8a43-5c38217083bd.png)
+
+**3. Nmon**
+
+Nmon dapat digunakan sebagai alternatif lain karena kita dapat memonitoring data secara lengkap dan real time.
+
+* Untuk menginstall nmon : `sudo apt install nmon -y`
+
+![Screenshot from 2021-10-03 03-16-29](https://user-images.githubusercontent.com/90166624/135730884-9d73f455-5617-411c-8dbc-66a377ba1dc8.png)
+
+* Untuk menjalankan nmon : `nmon`
+
+![Screenshot from 2021-10-03 03-16-54](https://user-images.githubusercontent.com/90166624/135730886-e762be6a-4b91-4dcc-9d7e-03d19f17399e.png)
+
+* Untuk menjalankan perintah monitoring pada nmon, kita cukup menekan tombol keyboard tertentu contohnya key C untuk melihat penggunaan CPU, key D untuk melihat penggunaan disk, dan key N untuk melihat keadaan network.
+
+![Screenshot from 2021-10-03 03-18-52](https://user-images.githubusercontent.com/90166624/135730892-71496c1e-89dc-40c7-9e73-78a5581d37a1.png)
+
+### CMS Manajer
+
+Cadabra Multi Server Manajer merupakan platform buatan yang ditemukan oleh Mas Sugeng Agung Suganda, yang sekaligus menjadi CEO. Pada CMS manajer kita dapat memanajemen server server dengan mudah secara one click hanya menggunakan satu dashboard. 
+
+* Pertama kita perlu membuat akun kita pada https://cmsmanajer.com/register
+
+![Screenshot from 2021-10-03 03-25-25](https://user-images.githubusercontent.com/90166624/135731034-80e5b3c5-6128-4ebf-8d48-538d97a1fd62.png)
+
+* Untuk verifikasi email, coba kita lihat pada folder spam
+
+* Setelah itu kita akan login
+
+![Screenshot from 2021-10-03 03-27-49](https://user-images.githubusercontent.com/90166624/135731059-51f938f1-6c55-46a1-933e-a7e1c3618f78.png)
+
+* 
+* asd
