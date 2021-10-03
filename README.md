@@ -91,11 +91,11 @@ Diff berasal dari kata different, berfungsi untuk membandingkan isi dua file, se
 
 Echo digunakan untuk mencetak kata, serta bisa juga digunakan untuk menginput kata.
 
-* Contoh penggunaan kata untuk mecetak kata `echo "Hello world"` , untuk menginput kata pada file ``:
+* Contoh penggunaan kata untuk mecetak kata `echo "Hello world"` , untuk menginput kata pada file kita menggunakan `Hello world >> filehurufbesar`:
 
 ![Screenshot from 2021-10-02 01-30-54](https://user-images.githubusercontent.com/90166624/135669926-9ade335d-1cd8-4ca2-aa73-6b3e5d7e5449.png)
 
-* Contoh penggunaan kata untuk menginput kata tersebut sebagai pengganti pada file ``:
+* Contoh penggunaan kata untuk menginput kata tersebut sebagai pengganti pada file `Hello world > filehurufbesar`:
 
 ![Screenshot from 2021-10-02 01-32-08](https://user-images.githubusercontent.com/90166624/135669965-672f3529-16ff-4e3f-9587-f8ff156e4015.png)
 
