@@ -219,7 +219,9 @@ Nmon dapat digunakan sebagai alternatif lain karena kita dapat memonitoring data
 
 ### CMS Manajer
 
-Cadabra Multi Server Manajer merupakan platform buatan yang ditemukan oleh Mas Sugeng Agung Suganda, yang sekaligus menjadi CEO. Pada CMS manajer kita dapat memanajemen server server dengan mudah secara one click hanya menggunakan satu dashboard. 
+Cadabra Multi Server Manajer merupakan platform buatan yang ditemukan oleh Mas Sugeng Agung Suganda, yang sekaligus menjadi CEO. Pada CMS manajer kita dapat memanajemen server server dengan mudah secara one click hanya menggunakan satu dashboard. CMS Manajer juga mampu mengoptimasasi konfigurasi kernel, keamanadan dan performa pada server.
+
+![Screenshot from 2021-10-04 01-21-02](https://user-images.githubusercontent.com/90166624/135766548-db4e5571-a7d4-4eca-a77c-d6f8d51597c0.png)
 
 * Pertama kita perlu membuat akun kita pada https://cmsmanajer.com/register
 
@@ -231,5 +233,17 @@ Cadabra Multi Server Manajer merupakan platform buatan yang ditemukan oleh Mas S
 
 ![Screenshot from 2021-10-03 03-27-49](https://user-images.githubusercontent.com/90166624/135731059-51f938f1-6c55-46a1-933e-a7e1c3618f78.png)
 
-* 
-* asd
+* Dilanjutkan dengan menghubungkan server kita ke cms manajer
+
+![Screenshot from 2021-10-04 01-16-18](https://user-images.githubusercontent.com/90166624/135766676-e4f3e811-c29b-4ddb-abfd-0f37561a8cf9.png)
+
+![Screenshot from 2021-10-04 01-18-27](https://user-images.githubusercontent.com/90166624/135766679-08805d2a-216e-4518-b7c8-ee13a57a782e.png)
+
+* Server name dapat diisi dengan kemauan masing-masing,sedangkan ip address, username, serta SSH key dapat diperoleh setelah kita membuat virtual server menggunakan platform penyedia server seperti AWS.
+
+* Setelah koneksi server berhasil dibuat, kita dapat membuat berbagai macam aplikasi seperti docker, mangoDB, wordpress, dan sebagainya.
+
+![Screenshot from 2021-10-04 01-32-57](https://user-images.githubusercontent.com/90166624/135766954-f5191ea1-20fa-405d-a501-b0925dd99ada.png)
+
+
+
